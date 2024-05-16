@@ -1,0 +1,40 @@
+/* Options.module.css */
+.button {
+  padding: 8px 16px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 8px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.resetBtn {
+  padding: 8px 16px;
+  font-size: 16px;
+  color: white;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 16px;
+}
+
+.resetBtn:hover {
+  background-color: #c82333;
+}
+
+.isHidden {
+  display: none;
+}
+
+.isDisplayed {
+  display: inline-block;
+}
